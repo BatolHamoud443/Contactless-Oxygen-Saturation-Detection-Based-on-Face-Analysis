@@ -31,20 +31,18 @@ This approach demonstrates the potential of video-based health monitoring, offer
 
 ## 🧠 Methodology
 
-###Preprocessing
+### Preprocessing
 
 1. Extract frames from facial videos.
-
 2. Identify Regions of Interest (ROIs) on the face.
 
-###Feature Extraction
+### Feature Extraction
 
 1. Use pre-trained CNNs (e.g., ResNet50, MobileNetV2) to extract features from each ROI over time.
 
-###SpO₂ Prediction
+### SpO₂ Prediction
 
-1.cTrain an XGBoost Regressor on the extracted features to predict SpO₂ values.
-
+1.Train an XGBoost Regressor on the extracted features to predict SpO₂ values.
 2. Evaluate on three test sets using: MAE (Mean Absolute Error), Pearson's correlation test, visual analysis of predicted SpO₂ distributions
 
 ## 📁 Repository Structure
@@ -62,10 +60,10 @@ Video-Based Blood Pressure Estimation/
 ## 📦 Model Weights
 If you would like to access the pretrained models for testing or research purposes, please contact me at [bkhamud@itmo.ru] and I will share them upon request.
 
-##🤝 Contributing
+## 🤝 Contributing
 If you find a bug or have a suggestion for improvement, feel free to open an issue or submit a pull request. Contributions are always welcome.
 
-##📜 Citation
+## 📜 Citation
 If you found our work interesting, please cite it as:
 ```
 @INPROCEEDINGS{10143059,
