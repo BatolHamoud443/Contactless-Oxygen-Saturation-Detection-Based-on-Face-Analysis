@@ -3,7 +3,7 @@
 
 ```Python3 | Ensemble Learning | XGBoost | CNNs```
 
-## Required Packages
+## 📦 Required Packages
 
 ```
 tensorflow == 2.11.0
@@ -42,7 +42,7 @@ This approach demonstrates the potential of video-based health monitoring, offer
 
 ### SpO₂ Prediction
 
-1.Train an XGBoost Regressor on the extracted features to predict SpO₂ values.
+1. Train an XGBoost Regressor on the extracted features to predict SpO₂ values.
 2. Evaluate on three test sets using: MAE (Mean Absolute Error), Pearson's correlation test, visual analysis of predicted SpO₂ distributions
 
 ## 📁 Repository Structure
@@ -57,7 +57,7 @@ Video-Based Blood Pressure Estimation/
 └── README.md # Project documentation
 ```
 
-## 📦 Model Weights
+## 💾 Model Weights
 If you would like to access the pretrained models for testing or research purposes, please contact me at [bkhamud@itmo.ru] and I will share them upon request.
 
 ## 🤝 Contributing
